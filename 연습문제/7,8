@@ -1,0 +1,19 @@
+# 7.4 연습문제
+year = 2000
+month = 10
+day = 27
+hour = 11
+minute = 43
+second = 59
+ 
+print(year, month, day, sep= '/', end = ' ')  # end=' ' 공백으로 바로 다음에 한 칸 띄우고 오게 만듦
+print(hour, minute, second, sep = ':') # sep=':'으로 sep으로 :을 넣어서 값을 각각 분리해줌 hour:minute:second가 됨
+
+
+# 8.3 연습문제
+# 50점 미만이면 불합격 / 코드 완성해서 합격이면 true, 불합격 false
+korean = 92
+english = 47
+mathematics = 86
+science = 81
+print(korean > 50 and english >  50 and mathematics > 50 and science > 50)
