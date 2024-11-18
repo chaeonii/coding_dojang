@@ -1,0 +1,7 @@
+# 5.5
+print(int(0.2467 * 12 + 4.159))
+
+
+# 6.5
+a,b,c = map(int, input().split()) # map은 int를 input값에 다 int화 시켜줌, split() 은 (공백) 공백 기준으로 분리시켜줌 
+print(a+b+c)
