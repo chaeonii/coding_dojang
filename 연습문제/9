@@ -1,0 +1,8 @@
+# 9
+s = "Python is a programming lanugae that lets you work quikcly \nand \nintergrate systems more effectively"
+print(s)
+
+# 아니면 이렇게도 가능
+s = '''Python is a programming language that lets you work quickly
+and
+integrate systems more effectively.'''
